@@ -9,7 +9,7 @@ public class Solution {
                 minHeap.poll();
                 minHeap.offer(nums[i]);
             }
-        } 
+        }
         return minHeap.peek();
     }
 }
